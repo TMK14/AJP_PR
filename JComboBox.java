@@ -26,4 +26,9 @@ l1.setText(s);
 public static void main (String args[]) 
 new JComboBoxDemo();
 }
+@Override
+public void itemStateChanged(ItemEvent e) {
+	// TODO Auto-generated method stub
+	
+}
 }

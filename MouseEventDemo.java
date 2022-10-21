@@ -1,10 +1,8 @@
+import java.awt.Color;
 import java.awt.event.MouseEvent;
 import java.awt.event.MouseListener;
 
 import javax.swing.JFrame;
-
-import java.awt.Color;
-import java.awt.Dimension;
 public class MouseEventDemo extends JFrame{
 
     public MouseEventDemo(){
@@ -22,9 +20,6 @@ public class MouseEventDemo extends JFrame{
 
             @Override
             public void mousePressed(MouseEvent e) {
-                // TODO Auto-generated method stub
-                // TODO Auto-generated method stub
-
                 getContentPane().setBackground(new Color(0,12,1));
             }
 
