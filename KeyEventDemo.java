@@ -1,8 +1,6 @@
-import javax.swing.JApplet;
-import javax.swing.JButton;
-import javax.swing.JLabel;
 import java.applet.Applet;
-import java.awt.event.*;
+import java.awt.event.KeyAdapter;
+import java.awt.event.KeyEvent;
 public class KeyEventDemo extends Applet{
     public void init(){
         
